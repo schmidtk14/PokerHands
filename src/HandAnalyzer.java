@@ -174,5 +174,4 @@ public class HandAnalyzer {
         System.out.println("StraightFlush: "+analyzer.findStraightFlush());
     }
 
-
 }
