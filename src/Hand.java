@@ -1,7 +1,7 @@
 import java.util.StringJoiner;
 
 public class Hand {
-    private static final int handSize = 5;
+    public static final int handSize = 5;
     private Card[] fullHand;
 
     public void buildHand(String handString){

@@ -113,15 +113,51 @@ public class HandAnalyzer {
     }
 
     private String findStraight(){
-        String straight = "";
         String highest = findHighest();
-        String test = "";
-        return straight;
+        boolean straightFound = true;
+        int highestRank = ranks.indexOf(highest);
+        for(int i=1; i<hand.handSize; i++){
+            if(!valueMap.containsKey(ranks.get(highestRank-i))){
+                straightFound = false;
+            }
+        }
+        if(!straightFound){
+            highest = "";
+        }
+        return highest;
+    }
+
+    private String findFlush(){
+        String highest = findHighest();
+        boolean flushFound = true;
+        String firstSuit = hand.getCards()[0].getSuit();
+        for(int i=1; i<hand.handSize; i++){
+            String newSuit = hand.getCards()[i].getSuit();
+            if(!firstSuit.equals(newSuit)){
+                flushFound = false;
+            }
+        }
+        if(!flushFound){
+            highest = "";
+        }
+        return highest;
+    }
+
+    private String findStraightFlush(){
+        String straightFlush = "";
+        String straight = findStraight();
+        String flush = findFlush();
+
+        if((straight.length()>0)&&(flush.length()>0)){
+            straightFlush = straight;
+        }
+
+        return straightFlush;
     }
 
     public static void main(String[] args) {
         Hand hand = new Hand();
-        hand.buildHand("JH AD AS AC AS");
+        hand.buildHand("JH QH KH 10H AC");
         for(Card c: hand.getCards()) {
             System.out.println(c.getValue() + c.getSuit());
         }
@@ -133,6 +169,9 @@ public class HandAnalyzer {
         System.out.println("Full House: "+analyzer.findFullHouse());
         System.out.println("Four of a kind: "+analyzer.findFourOfKind());
         System.out.println("Highest: " +analyzer.findHighest());
+        System.out.println("Straight: "+analyzer.findStraight());
+        System.out.println("Flush: "+analyzer.findFlush());
+        System.out.println("StraightFlush: "+analyzer.findStraightFlush());
     }
 
 
