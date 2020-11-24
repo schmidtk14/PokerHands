@@ -115,7 +115,7 @@ public class HandAnalyzer {
     private String findStraight(){
         String straight = "";
         String highest = findHighest();
-
+        String test = "";
         return straight;
     }
 
