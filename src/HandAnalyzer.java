@@ -8,6 +8,10 @@ public class HandAnalyzer {
     private HashMap<String, Integer> valueMap;
     private static ArrayList<String> ranks = new ArrayList<>(Arrays.asList("2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"));
 
+
+    //todo refactor to hand objects
+    //todo method to find best hand
+
     public HandAnalyzer(Hand hand){
         this.hand = hand;
     }
@@ -153,6 +157,10 @@ public class HandAnalyzer {
         }
 
         return straightFlush;
+    }
+
+    public void findBestHand(){
+
     }
 
     public static void main(String[] args) {
