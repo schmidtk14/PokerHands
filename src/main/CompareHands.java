@@ -1,3 +1,9 @@
+package main;
+
+import hands.*;
+import hands.Flush;
+import main.Card;
+
 import java.util.HashMap;
 
 public class CompareHands {
@@ -6,11 +12,14 @@ public class CompareHands {
     private HashMap<String, Integer> whiteMap;
     private HashMap<String, Integer> blackMap;
 
-
     public CompareHands(String game){
         initialize(game);
     }
 
+    /**
+     * Initializes card arrays and hashmaps for black and white players
+     * @param game - String which represents two hands, one for each player
+     */
     private void initialize(String game){
         String blackString = game.substring(game.indexOf(":")+2, game.indexOf("  "));
         String whiteString = game.substring(game.indexOf("White:")+7);
@@ -20,6 +29,11 @@ public class CompareHands {
         blackMap = buildMap(blackCards);
     }
 
+    /**
+     * builds an array of cards for one players hand
+     * @param handString - String which represents one players hand of five cards
+     * @return main.Card[] - array of five cards
+     */
     private Card[] buildHand(String handString){
         Card[] cards = new Card[5];
         String[] strings = handString.split(" ");
@@ -32,6 +46,11 @@ public class CompareHands {
         return cards;
     }
 
+    /**
+     * Builds a hashMap to hold the card values and frequency for a single players hand
+     * @param cards - main.Card[] array of five cards
+     * @return - HashMap
+     */
     private HashMap<String, Integer> buildMap(Card[] cards){
         HashMap<String, Integer> valueMap = new HashMap<>();
 
@@ -46,6 +65,11 @@ public class CompareHands {
         return valueMap;
     }
 
+    /**
+     * finds winner of single game.  It first parses each players cards to possible types of hands.
+     * Moving from the highest value hand type of hands.Straight flush down to the lowest of High main.Card, if one player has
+     * the hand type it compares the two players hands to determine the winner.
+     */
     public void findWinner(){
         StraightFlush whiteStraightFlush = new StraightFlush();
         whiteStraightFlush.find(whiteMap);
@@ -116,11 +140,5 @@ public class CompareHands {
         else{
             whiteHigh.compareHighCards(whiteMap, blackMap);
         }
-    }
-
-    public static void main(String[] args) {
-        String game = "Black: KD 3H 3S 3D 5C  White: 5S 2D AC 2H 6C";
-        CompareHands compare = new CompareHands(game);
-        compare.findWinner();
     }
 }

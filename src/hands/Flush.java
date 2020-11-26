@@ -1,3 +1,6 @@
+package hands;
+
+import main.Card;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -10,6 +13,11 @@ public class Flush {
         isFlush = true;
     }
 
+    /**
+     * Evaluates one players hand to determine if it is is a flush and sets field isFlush.
+     * @param cards - main.Card[] - holds five cards for players hand
+     * @return boolean
+     */
     public boolean find(Card[] cards){
         boolean flushFound = true;
         String firstSuit = cards[0].getSuit();
@@ -23,6 +31,11 @@ public class Flush {
         return flushFound;
     }
 
+    /**
+     * finds the highest card value from HashMap
+     * @param valueMap - HashMap representing all values and their frequency
+     * @return String
+     */
     private String findHighest(HashMap<String, Integer> valueMap){
         String highValue = "2";
 
@@ -37,6 +50,11 @@ public class Flush {
         return highValue;
     }
 
+    /**
+     * Compares the hands of each player represented by HashMaps of the card values and their frequencies.  If both
+     * players have a flush then it checks the value of the cards from highest to lowest in the case of ties to
+     * determine the winner.  If both hands consist of the same card values than a tie is declared.
+     */
     public void compareFlushes(HashMap<String, Integer> whiteMap, HashMap<String, Integer> blackMap, Card[] whiteCards, Card[] blackCards){
         boolean whiteIsFlush = find(whiteCards);
         boolean blackIsFlush = find(blackCards);
@@ -50,14 +68,16 @@ public class Flush {
         String highestBlack = findHighest(tempBlackMap);
         int highestWhiteRank = ranks.indexOf(highestWhite);
         int highestBlackRank = ranks.indexOf(highestBlack);
-        if(whiteIsFlush && blackIsFlush){
 
+        //if both are flushes compare the ranks of the highest values to determine the winner
+        if(whiteIsFlush && blackIsFlush){
             if(highestWhiteRank > highestBlackRank){
                 System.out.println("White wins. - with flush: " + highestWhite + " high");
             }
             else if(highestWhiteRank < highestBlackRank){
                 System.out.println("Black wins. - with flush: " + highestBlack + " high");
             }
+            //if highest ranks are equal then compare the rest of the cards in order until a winner is found
             else{
                 tempWhiteMap.remove(highestWhite);
                 tempBlackMap.remove(highestBlack);
@@ -72,7 +92,6 @@ public class Flush {
                         tempWhiteMap.remove(highestWhite);
                         tempBlackMap.remove(highestBlack);
                     }
-
                     else if(highestWhiteRank > highestBlackRank){
                         System.out.println("White wins. - with flush: " + highestWhite + " kicker");
                         winnerFound = true;
@@ -81,7 +100,7 @@ public class Flush {
                         System.out.println("Black wins. - with flush: " + highestBlack + " kicker");
                         winnerFound = true;
                     }
-
+                    //if all values tie then a tie is declared for the game
                     if(tempWhiteMap.size()==0){
                         System.out.println("Tie.");
                         winnerFound = true;

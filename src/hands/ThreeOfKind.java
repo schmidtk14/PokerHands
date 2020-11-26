@@ -1,3 +1,5 @@
+package hands;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -13,6 +15,11 @@ public class ThreeOfKind {
         isThreeOfKind = false;
     }
 
+    /**
+     * Evaluates one players hand to determine if it has a three of a kind and sets field isThreeOfKind.
+     * Also sets the field value for the value of the three of a kind.
+     * @param valueMap - HashMap - holds card values and their frequencies
+     */
     public void find(HashMap<String, Integer> valueMap){
         for(String cardValue: valueMap.keySet()){
             if(valueMap.get(cardValue)==3){
@@ -22,7 +29,13 @@ public class ThreeOfKind {
         }
     }
 
+    /**
+     * Compares the three of a kinds of each player to determine the winner. If both players have one then the winner is
+     * determined by the value of the three of a kinds. If only one player has a three of a kind then that player is
+     * the winner.
+     */
     public void compareThreeOfKinds(ThreeOfKind white, ThreeOfKind black){
+        //if both players have a three of kind then the player with the higher three of kind is the winner
         if(white.isThreeOfKind && black.isThreeOfKind){
             int whiteThreeOfKindRank = ranks.indexOf(white.value);
             int blackThreeOfKindRank = ranks.indexOf(black.value);
@@ -32,10 +45,8 @@ public class ThreeOfKind {
             else if(whiteThreeOfKindRank < blackThreeOfKindRank){
                 System.out.println("Black wins. - with three of kind: " + black.value);
             }
-            else {
-                System.out.println("Tie.");
-            }
         }
+        //if only one player has a three of kind then they are the winner
         else if(white.isThreeOfKind){
             System.out.println("White wins. - with three of kind: " + white.value);
         }
