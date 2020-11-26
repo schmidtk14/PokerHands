@@ -23,9 +23,15 @@ public class Straight {
         String highValue = findHighest(valueMap);
         int highestRank = ranks.indexOf(highValue);
         for(int i=1; i<valueMap.size(); i++){
+            if(valueMap.size()!=5){
+                straightFound = false;
+                isStraight = false;
+                break;
+            }
             if(!valueMap.containsKey(ranks.get(highestRank-i))){
                 straightFound = false;
                 isStraight = false;
+                break;
             }
         }
         return straightFound;

@@ -17,8 +17,13 @@ public class StraightFlush {
         String highValue = findHighest(valueMap);
         int highestRank = ranks.indexOf(highValue);
         for(int i=1; i<valueMap.size(); i++){
+            if(valueMap.size()!=5){
+                straightFound = false;
+                break;
+            }
             if(!valueMap.containsKey(ranks.get(highestRank-i))){
                 straightFound = false;
+                break;
             }
         }
         return straightFound;

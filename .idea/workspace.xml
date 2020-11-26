@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26597115-e94f-43f2-ace1-3543c68e2dcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/HandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/FlushTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/FourOfKindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/FullHouseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/HighCardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/PairTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/StraighFlushTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/StraightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ThreeOfKindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TwoPairTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KataPokerHand.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KataPokerHand.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KataPokerHand/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hands/Flush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hands/Flush.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hands/FullHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hands/FullHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hands/Straight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hands/Straight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hands/StraightFlush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hands/StraightFlush.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hands/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/CompareHands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/control/CompareHands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Games.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/control/Games.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/HandTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,63 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hands/Pair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3518#3519#0" expanded="true" />
-                <element signature="e#3547#3548#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hands/FourOfKind.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1837#1838#0" expanded="true" />
-                <element signature="e#1872#1873#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hands/Flush.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="98" column="95" selection-start-line="98" selection-start-column="95" selection-end-line="98" selection-end-column="95" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hands/Card.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/HandTest.java">
+        <entry file="file://$PROJECT_DIR$/test/SampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="350" column="52" selection-start-line="350" selection-start-column="52" selection-end-line="350" selection-end-column="52" />
+            <state relative-caret-position="272">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
                 <element signature="e#617#618#0" expanded="true" />
                 <element signature="e#526#527#0" expanded="true" />
                 <element signature="e#568#569#0" expanded="true" />
@@ -88,60 +42,144 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hands/HighCard.java">
+        <entry file="file://$PROJECT_DIR$/test/StraighFlushTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="1887">
+              <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hands/Straight.java">
+        <entry file="file://$PROJECT_DIR$/test/FourOfKindTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="1037">
+              <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hands/TwoPair.java">
+        <entry file="file://$PROJECT_DIR$/test/FullHouseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="1208">
+              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hands/FullHouse.java">
+        <entry file="file://$PROJECT_DIR$/test/FlushTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="647">
+              <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/control/CompareHands.java">
+        <entry file="file://$PROJECT_DIR$/test/StraightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="647">
+              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/ThreeOfKindTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/TwoPairTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="647">
+              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/PairTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="647">
+              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/HighCardTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,10 +223,22 @@
         <option value="$PROJECT_DIR$/src/TwoPair.java" />
         <option value="$PROJECT_DIR$/src/main/CompareHands.java" />
         <option value="$PROJECT_DIR$/src/control/CompareHands.java" />
-        <option value="$PROJECT_DIR$/src/hands/StraightFlush.java" />
         <option value="$PROJECT_DIR$/src/hands/FullHouse.java" />
         <option value="$PROJECT_DIR$/src/hands/Flush.java" />
+        <option value="$PROJECT_DIR$/src/hands/Straight.java" />
+        <option value="$PROJECT_DIR$/src/hands/StraightFlush.java" />
+        <option value="$PROJECT_DIR$/src/hands/TwoPair.java" />
+        <option value="$PROJECT_DIR$/test/StraighFlushTest.java" />
+        <option value="$PROJECT_DIR$/test/FourOfKindTest.java" />
+        <option value="$PROJECT_DIR$/test/FullHouseTest.java" />
+        <option value="$PROJECT_DIR$/test/FlushTest.java" />
+        <option value="$PROJECT_DIR$/test/StraightTest.java" />
+        <option value="$PROJECT_DIR$/test/ThreeOfKindTest.java" />
+        <option value="$PROJECT_DIR$/test/TwoPairTest.java" />
+        <option value="$PROJECT_DIR$/test/PairTest.java" />
+        <option value="$PROJECT_DIR$/test/HighCardTest.java" />
         <option value="$PROJECT_DIR$/test/HandTest.java" />
+        <option value="$PROJECT_DIR$/test/SampleTest.java" />
       </list>
     </option>
   </component>
@@ -225,6 +275,17 @@
             </path>
             <path>
               <item name="KataPokerHand" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KataPokerHand" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KataPokerHand" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KataPokerHand" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KataPokerHand" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -242,7 +303,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606422868425" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606433972252" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -264,16 +325,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HandTest">
+  <component name="RunManager" selected="JUnit.All in KataPokerHand">
     <configuration name="CompareHands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="control.CompareHands" />
-      <module name="KataPokerHand" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hand" />
       <module name="KataPokerHand" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -293,10 +347,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in KataPokerHand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KataPokerHand" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HandTest" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KataPokerHand" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -304,11 +366,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HandTest" />
+        <item itemvalue="JUnit.All in KataPokerHand" />
+        <item itemvalue="JUnit.SampleTest" />
         <item itemvalue="Application.CompareHands" />
         <item itemvalue="Application.WinningHands" />
         <item itemvalue="Application.HandAnalyzer" />
-        <item itemvalue="Application.Hand" />
       </list>
     </recent_temporary>
   </component>
@@ -360,49 +422,56 @@
       <option name="project" value="LOCAL" />
       <updated>1606364620854</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added test cases">
+      <created>1606423249934</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606423249934</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HandTest - 2020.11.26 at 15h 26m 01s.xml">
+    <history-entry file="HandTest - 2020.11.26 at 18h 14m 04s.xml">
       <configuration name="HandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest - 2020.11.26 at 15h 26m 32s.xml">
+    <history-entry file="HandTest - 2020.11.26 at 18h 14m 18s.xml">
       <configuration name="HandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest - 2020.11.26 at 15h 27m 53s.xml">
+    <history-entry file="HandTest - 2020.11.26 at 18h 15m 23s.xml">
       <configuration name="HandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest - 2020.11.26 at 15h 28m 10s.xml">
+    <history-entry file="HandTest - 2020.11.26 at 18h 16m 04s.xml">
       <configuration name="HandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest - 2020.11.26 at 15h 30m 16s.xml">
+    <history-entry file="HandTest - 2020.11.26 at 18h 17m 29s.xml">
       <configuration name="HandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest - 2020.11.26 at 15h 30m 24s.xml">
+    <history-entry file="HandTest - 2020.11.26 at 18h 17m 50s.xml">
       <configuration name="HandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest - 2020.11.26 at 15h 31m 28s.xml">
+    <history-entry file="HandTest - 2020.11.26 at 18h 18m 27s.xml">
       <configuration name="HandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest - 2020.11.26 at 15h 32m 54s.xml">
+    <history-entry file="HandTest - 2020.11.26 at 18h 19m 22s.xml">
       <configuration name="HandTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest - 2020.11.26 at 15h 33m 14s.xml">
-      <configuration name="HandTest" configurationId="JUnit" />
+    <history-entry file="All_in_KataPokerHand - 2020.11.26 at 18h 21m 55s.xml">
+      <configuration name="All in KataPokerHand" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandTest - 2020.11.26 at 15h 34m 31s.xml">
-      <configuration name="HandTest" configurationId="JUnit" />
+    <history-entry file="All_in_KataPokerHand - 2020.11.26 at 18h 31m 21s.xml">
+      <configuration name="All in KataPokerHand" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100680000" />
+    <option name="totallyTimeSpent" value="107968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16145833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16145833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,37 +480,6 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32784638" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.86353946" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.13646056" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32921812" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.098958336" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32784638" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -462,7 +500,7 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -473,7 +511,8 @@
     <MESSAGE value="most of CompareHands class finished to be refactored" />
     <MESSAGE value="Logic finished, testing to be done" />
     <MESSAGE value="added javadoc comments and refactored classes to packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added javadoc comments and refactored classes to packages" />
+    <MESSAGE value="Added test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -483,6 +522,12 @@
           <line>51</line>
           <properties />
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hands/Straight.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -541,46 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hands/StraightFlush.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hands/ThreeOfKind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hands/TwoPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hands/Straight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hands/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -622,26 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/control/CompareHands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hands/Flush.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="98" column="95" selection-start-line="98" selection-start-column="95" selection-end-line="98" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hands/FullHouse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -652,13 +637,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/HandTest.java">
+    <entry file="file://$PROJECT_DIR$/src/hands/ThreeOfKind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="350" column="52" selection-start-line="350" selection-start-column="52" selection-end-line="350" selection-end-column="52" />
+        <state relative-caret-position="-374">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/CompareHands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1700">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hands/Straight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hands/Flush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hands/StraightFlush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="72" lean-forward="true" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hands/TwoPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="90" column="131" selection-start-line="90" selection-start-column="131" selection-end-line="90" selection-end-column="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/StraighFlushTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FourOfKindTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FullHouseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1208">
+          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FlushTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/StraightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ThreeOfKindTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TwoPairTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/PairTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/HighCardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#617#618#0" expanded="true" />
             <element signature="e#526#527#0" expanded="true" />
             <element signature="e#568#569#0" expanded="true" />
