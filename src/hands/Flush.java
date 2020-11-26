@@ -1,6 +1,5 @@
 package hands;
 
-import main.Card;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -15,7 +14,7 @@ public class Flush {
 
     /**
      * Evaluates one players hand to determine if it is is a flush and sets field isFlush.
-     * @param cards - main.Card[] - holds five cards for players hand
+     * @param cards - hands.Card[] - holds five cards for players hand
      * @return boolean
      */
     public boolean find(Card[] cards){
@@ -93,11 +92,11 @@ public class Flush {
                         tempBlackMap.remove(highestBlack);
                     }
                     else if(highestWhiteRank > highestBlackRank){
-                        System.out.println("White wins. - with flush: " + highestWhite + " kicker");
+                        System.out.println("White wins. - with flush: " + highestWhite + " high");
                         winnerFound = true;
                     }
                     else{
-                        System.out.println("Black wins. - with flush: " + highestBlack + " kicker");
+                        System.out.println("Black wins. - with flush: " + highestBlack + " high");
                         winnerFound = true;
                     }
                     //if all values tie then a tie is declared for the game

@@ -47,10 +47,10 @@ public class FullHouse {
         //if both players have a full house then check the values of the three of kinds to determine who is the winner
         if(white.isFullHouse && black.isFullHouse){
             if(whiteThreeOfKindRank > blackThreeOfKindRank){
-                System.out.println("White wins. - with full house: " + white.threeOfKind + " over " + white.threeOfKind);
+                System.out.println("White wins. - with full house: " + white.threeOfKind + " over " + white.pair);
             }
             else if(whiteThreeOfKindRank < blackThreeOfKindRank){
-                System.out.println("Black wins. - with full house: " + black.threeOfKind + " over " + black.threeOfKind);
+                System.out.println("Black wins. - with full house: " + black.threeOfKind + " over " + black.pair);
             }
         }
         //if only one player has a full house then they are the winner

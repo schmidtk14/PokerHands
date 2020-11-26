@@ -1,4 +1,4 @@
-package main;
+package hands;
 
 public class Card {
     private String value;

@@ -1,7 +1,5 @@
 package hands;
 
-import hands.Flush;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;

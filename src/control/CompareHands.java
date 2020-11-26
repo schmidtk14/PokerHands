@@ -1,8 +1,6 @@
-package main;
+package control;
 
 import hands.*;
-import hands.Flush;
-import main.Card;
 
 import java.util.HashMap;
 
@@ -32,7 +30,7 @@ public class CompareHands {
     /**
      * builds an array of cards for one players hand
      * @param handString - String which represents one players hand of five cards
-     * @return main.Card[] - array of five cards
+     * @return hands.Card[] - array of five cards
      */
     private Card[] buildHand(String handString){
         Card[] cards = new Card[5];
@@ -48,7 +46,7 @@ public class CompareHands {
 
     /**
      * Builds a hashMap to hold the card values and frequency for a single players hand
-     * @param cards - main.Card[] array of five cards
+     * @param cards - hands.Card[] array of five cards
      * @return - HashMap
      */
     private HashMap<String, Integer> buildMap(Card[] cards){
@@ -67,8 +65,8 @@ public class CompareHands {
 
     /**
      * finds winner of single game.  It first parses each players cards to possible types of hands.
-     * Moving from the highest value hand type of hands.Straight flush down to the lowest of High main.Card, if one player has
-     * the hand type it compares the two players hands to determine the winner.
+     * Moving from the highest value hand type of hands.Straight flush down to the lowest of High hands.Card,
+     * if one player has the hand type it compares the two players hands to determine the winner.
      */
     public void findWinner(){
         StraightFlush whiteStraightFlush = new StraightFlush();
